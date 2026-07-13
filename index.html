@@ -3,10 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Convención Nacional 2026 — Iglesia Misión Evangélica Buenas Nuevas.">
-  <title>Convención Nacional 2026 | Ibagué</title>
+  <meta name="description" content="Convención Nacional 2026 de la Iglesia Misión Evangélica Buenas Nuevas. 9, 10 y 11 de octubre en Ibagué, Tolima. Tres días de fe, comunidad y crecimiento espiritual.">
+  <title>Convención Nacional 2026 | Iglesia Misión Evangélica Buenas Nuevas — Ibagué, Tolima</title>
+  <link rel="canonical" href="https://convencion2026.iglesiamisionevangelica.org/">
+  <link rel="icon" href="assets/logo-iglesia-mision-evangelica.png" type="image/png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Convención Nacional 2026 | Ibagué">
+  <meta property="og:description" content="Tres días de fe, comunidad y crecimiento espiritual. 9–11 de octubre en Ibagué, Tolima. Iglesia Misión Evangélica Buenas Nuevas.">
+  <meta property="og:image" content="https://convencion2026.iglesiamisionevangelica.org/assets/fachada-sede-ibague.png">
+  <meta property="og:url" content="https://convencion2026.iglesiamisionevangelica.org/">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Convención Nacional 2026">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Convención Nacional 2026 | Ibagué">
+  <meta name="twitter:description" content="Tres días de fe, comunidad y crecimiento espiritual. 9–11 de octubre en Ibagué, Tolima.">
+  <meta name="twitter:image" content="https://convencion2026.iglesiamisionevangelica.org/assets/fachada-sede-ibague.png">
+
+  <!-- Preload Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700;800&family=League+Spartan:wght@600;700;800;900&display=swap">
+
+  <!-- Schema.org Event -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Convención Nacional 2026 — Iglesia Misión Evangélica Buenas Nuevas",
+    "description": "Tres días para compartir, aprender y vivir una experiencia que fortalece nuestra fe y comunidad.",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-11",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Iglesia Misión Evangélica Buenas Nuevas — Sede Ibagué",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cra. 5A #24-2 a 24-86",
+        "addressLocality": "Ibagué",
+        "addressRegion": "Tolima",
+        "addressCountry": "CO"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Iglesia Misión Evangélica Buenas Nuevas"
+    },
+    "image": "https://convencion2026.iglesiamisionevangelica.org/assets/fachada-sede-ibague.png"
+  }
+  </script>
+
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700;800&family=League+Spartan:wght@600;700;800;900&display=swap');
     :root { --ink:#172043; --blue:#272d74; --violet:#5850c7; --coral:#f18a64; --cream:#f7f7fb; --white:#fff; }
     * { box-sizing:border-box; } body { margin:0; color:var(--ink); font:16px/1.6 "DM Sans",system-ui,sans-serif; background:var(--cream); }
     .hero { position:relative; isolation:isolate; overflow:hidden; color:var(--white); min-height:720px; padding:26px 7vw 72px; background:linear-gradient(128deg,#171d5a 0%,#3d3ba1 55%,#7769d4 100%); } .hero::before { content:""; position:absolute; z-index:-1; width:550px; height:550px; right:-160px; top:-240px; border:1px solid rgba(255,255,255,.24); border-radius:50%; box-shadow:0 0 0 58px rgba(255,255,255,.05),0 0 0 116px rgba(255,255,255,.04); } .hero::after { content:""; position:absolute; z-index:-1; left:-10vw; bottom:-18vw; width:62vw; height:35vw; background:var(--coral); opacity:.18; filter:blur(4px); transform:rotate(-8deg); border-radius:50%; }
@@ -23,11 +75,27 @@
     .directions { max-width:800px; margin:82px auto 0; padding:45px 28px; border-radius:22px; background:#fff; text-align:center; } .directions p { max-width:580px; margin:0 auto 25px; font-size:18px; } .directions .buttons { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; } .button.secondary { background:transparent; border:1px solid var(--blue); color:var(--blue); }
     .cta { max-width:760px; margin:72px auto 0; padding:52px 30px; border-radius:24px; background:linear-gradient(130deg,#fff 0%,#fff0ea 100%); text-align:center; border:1px solid #f0ded8; } .cta p { max-width:530px; margin:16px auto 24px; } .muted { color:#687181; font-size:14px; }
     footer { padding:34px 7vw; background:#131746; color:#dfe2ff; text-align:center; font-size:14px; }
-    @media (max-width:700px) { .hero { min-height:650px; padding-inline:24px; } nav { align-items:flex-start; } .tag { display:none; } .hero-content { margin-top:108px; } .cards,.location,.venue-gallery { grid-template-columns:1fr; } .card:nth-child(2) { transform:none; } .location .copy { padding:40px 30px; } main { padding-inline:18px; } }
+    .fixed-nav { position:fixed; top:0; left:0; right:0; z-index:1000; background:rgba(23,29,90,.97); backdrop-filter:blur(10px); padding:0 7vw; box-shadow:0 2px 16px rgba(0,0,0,.18); } .fixed-nav ul { display:flex; align-items:center; justify-content:center; gap:8px; margin:0; padding:0; list-style:none; height:56px; } .fixed-nav a { color:#dfe2ff; text-decoration:none; font-size:14px; font-weight:600; padding:8px 14px; border-radius:10px; transition:background .2s,color .2s; } .fixed-nav a:hover,.fixed-nav a.active { background:rgba(255,255,255,.12); color:#fff; }
+    .hamburger { display:none; background:none; border:none; cursor:pointer; padding:8px; position:absolute; right:24px; top:50%; transform:translateY(-50%); } .hamburger span { display:block; width:24px; height:2.5px; background:#fff; border-radius:2px; margin:5px 0; transition:transform .3s,opacity .3s; } .hamburger.open span:nth-child(1) { transform:rotate(45deg) translate(5px,5px); } .hamburger.open span:nth-child(2) { opacity:0; } .hamburger.open span:nth-child(3) { transform:rotate(-45deg) translate(5px,-5px); }
+    body { padding-top:56px; }
+    @media (max-width:700px) { .hero { min-height:650px; padding-inline:24px; } nav { align-items:flex-start; } .tag { display:none; } .hero-content { margin-top:108px; } .cards,.location,.venue-gallery { grid-template-columns:1fr; } .card:nth-child(2) { transform:none; } .location .copy { padding:40px 30px; } main { padding-inline:18px; } .fixed-nav { padding:0 24px; } .fixed-nav ul { flex-direction:column; height:auto; gap:0; max-height:0; overflow:hidden; transition:max-height .35s ease,padding .3s; } .fixed-nav ul.open { max-height:400px; padding:12px 0; } .fixed-nav a { display:block; padding:12px 16px; font-size:15px; } .hamburger { display:block; } .fixed-nav { height:56px; display:flex; align-items:center; position:fixed; flex-wrap:wrap; } .fixed-nav ul { width:100%; background:rgba(23,29,90,.98); position:absolute; top:56px; left:0; right:0; padding:0; border-radius:0 0 16px 16px; box-shadow:0 8px 20px rgba(0,0,0,.2); } }
   </style>
 </head>
 <body>
-  <header class="hero">
+  <nav class="fixed-nav" aria-label="Menú principal">
+    <ul id="navMenu">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#programa">Programa</a></li>
+      <li><a href="#hospedaje">Hospedaje</a></li>
+      <li><a href="#como-llegar">Cómo llegar</a></li>
+      <li><a href="#registro">Registro</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <header class="hero" id="inicio">
     <nav><div class="identity"><img class="logo" src="assets/logo-iglesia-mision-evangelica.png" alt="Logo de la Iglesia Misión Evangélica Buenas Nuevas"><div class="brand">Iglesia Misión Evangélica Buenas Nuevas</div></div><div class="tag">Ibagué · 2026</div></nav>
     <div class="hero-content">
       <p class="eyebrow">Un encuentro para crecer juntos</p>
@@ -38,14 +106,30 @@
     </div>
   </header>
   <main>
-    <section><div class="intro"><h2>Tu primera convención empieza aquí</h2><p>Hemos preparado una ruta sencilla para que llegues listo y disfrutes plenamente cada momento.</p></div>
+    <section id="programa"><div class="intro"><h2>Tu primera convención empieza aquí</h2><p>Hemos preparado una ruta sencilla para que llegues listo y disfrutes plenamente cada momento.</p></div>
       <div class="cards"><article class="card"><div class="n">01</div><h3>Regístrate</h3><p>La inscripción estará disponible próximamente. Vuelve a este sitio para asegurar tu lugar.</p></article><article class="card"><div class="n">02</div><h3>Reserva alojamiento</h3><p>Planea con anticipación tu estadía en Ibagué. Pronto compartiremos opciones y orientaciones.</p></article><article class="card"><div class="n">03</div><h3>Prepárate para llegar</h3><p>Consulta la ubicación y organiza tu traslado para acompañarnos desde el primer día.</p></article></div>
     </section>
-    <section class="location"><div class="copy"><p class="eyebrow">Sede del evento</p><h2>Nos vemos en Ibagué</h2><p>Cra. 5A #24-2 a 24-86<br>Ibagué, Tolima, Colombia</p><a class="button" href="https://maps.app.goo.gl/KvDrMYZ9racZsGR86" target="_blank" rel="noopener">Abrir ubicación confirmada</a></div><div class="map"><span>Destino</span><strong>Ibagué,<br>Tolima</strong><span>Colombia</span></div></section>
-    <section class="venue-gallery" aria-label="Fotos de la sede"><figure class="venue-photo"><img src="assets/fachada-sede-ibague.png" alt="Vista exterior de la sede de la Iglesia Misión Evangélica Buenas Nuevas en Ibagué"><figcaption>Vista exterior de la sede del evento.</figcaption></figure><figure class="venue-photo"><img src="assets/segunda-vista-sede-ibague.png" alt="Segunda vista exterior de la sede del evento en Ibagué"><figcaption>Otra vista de la sede del evento.</figcaption></figure></section>
-    <section class="directions"><p class="eyebrow">Planea tu llegada</p><h2>¿Cómo llegar?</h2><p>Abre la ubicación confirmada en tu teléfono y toca «Cómo llegar» para recibir indicaciones en carro, transporte público o caminando.</p><div class="buttons"><a class="button" href="https://maps.app.goo.gl/KvDrMYZ9racZsGR86" target="_blank" rel="noopener">Abrir Google Maps</a></div></section>
+    <section id="hospedaje" class="location"><div class="copy"><p class="eyebrow">Sede del evento</p><h2>Nos vemos en Ibagué</h2><p>Cra. 5A #24-2 a 24-86<br>Ibagué, Tolima, Colombia</p><a class="button" href="https://maps.app.goo.gl/KvDrMYZ9racZsGR86" target="_blank" rel="noopener">Abrir ubicación confirmada</a></div><div class="map"><span>Destino</span><strong>Ibagué,<br>Tolima</strong><span>Colombia</span></div></section>
+    <section class="venue-gallery" aria-label="Fotos de la sede"><figure class="venue-photo"><img src="assets/fachada-sede-ibague.png" alt="Vista exterior de la sede de la Iglesia Misión Evangélica Buenas Nuevas en Ibagué" width="800" height="600" loading="lazy"><figcaption>Vista exterior de la sede del evento.</figcaption></figure><figure class="venue-photo"><img src="assets/segunda-vista-sede-ibague.png" alt="Segunda vista exterior de la sede del evento en Ibagué" width="800" height="600" loading="lazy"><figcaption>Otra vista de la sede del evento.</figcaption></figure></section>
+    <section id="como-llegar" class="directions"><p class="eyebrow">Planea tu llegada</p><h2>¿Cómo llegar?</h2><p>Abre la ubicación confirmada en tu teléfono y toca «Cómo llegar» para recibir indicaciones en carro, transporte público o caminando.</p><div class="buttons"><a class="button" href="https://maps.app.goo.gl/KvDrMYZ9racZsGR86" target="_blank" rel="noopener">Abrir Google Maps</a></div></section>
     <section id="registro" class="cta"><p class="eyebrow">Registro próximamente</p><h2>Se parte de este encuentro</h2><p>Aún estamos preparando el formulario de inscripción y la información de alojamiento. Guarda esta página y vuelve pronto para completar tu registro.</p><p class="muted">9, 10 y 11 de octubre de 2026</p></section>
   </main>
-  <footer>Convención Nacional 2026 · Iglesia Misión Evangélica Buenas Nuevas</footer>
+  <footer id="contacto">Convención Nacional 2026 · Iglesia Misión Evangélica Buenas Nuevas</footer>
+  <script>
+    const btn = document.getElementById('hamburgerBtn');
+    const menu = document.getElementById('navMenu');
+    btn.addEventListener('click', () => {
+      const open = btn.classList.toggle('open');
+      menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+    });
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        btn.classList.remove('open');
+        menu.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
 </body>
 </html>
